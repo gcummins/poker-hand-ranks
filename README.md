@@ -1,6 +1,29 @@
-# PokerHandRanks
+# Poker Hand Ranks
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Select the strongest five-card hand from seven available cards using Texas Hold'em rules
+
+Inputs:
+ - Two hole cards
+ - Five community cards
+
+Output:
+ - The five cards that make the strongest hand
+ - The descriptor of the strongest hand. For example:
+ -- High card (Ace)
+ -- A pair of kings
+ -- Queens over eights
+ -- A set of threes
+ -- A nine-high straight
+ -- A queen-high flush
+ -- Four of a kind (sixes)
+ -- A straight flush (10 high)
+ -- A royal flush
+
+
+Process:
+ - Choose the best five-card hand from the seven cards available to each player 
+
+The project framework was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
 

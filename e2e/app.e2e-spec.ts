@@ -7,8 +7,8 @@ describe('poker-hand-ranks App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display a title', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('Rank a Hold\'em Hand');
   });
 });
